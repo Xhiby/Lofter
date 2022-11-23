@@ -21,7 +21,14 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+  const props = defineProps({
+    username: {
+      type: String,
+      default: 'UserName'
+    }
+  })
+</script>
 
 <style lang="scss" scoped>
   .user {

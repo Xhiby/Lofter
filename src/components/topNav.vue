@@ -7,7 +7,7 @@
       <router-link to="/index">APP</router-link>
       <input
         type="text"
-        placeholder="搜索文章" />
+        placeholder="搜索文章、标签" />
       <router-link to="/setting">设置</router-link>
       <router-link to="/exit">登出</router-link>
     </div>
