@@ -1,176 +1,87 @@
 {
   "status": "OK",
   "message": "返回全部文章列表",
-  "data": {
-    "articleList": [
-      {
-        "art_id": 77,
-        "author": "TestUser",
-        "imgsrc": "",
-        "title": "Hello",
-        "text": "World",
-        "user_img": "/public/change_user_img/default.png"
-      },
-      {
-        "art_id": 76,
-        "author": "Eone",
-        "imgsrc": "/public/upload_img_art/1624292408592.jpg",
-        "title": null,
-        "text": "如果黑暗里没有人赐予我们光明，我们就自己给自己掌灯。 ",
-        "user_img": "/public/change_user_img/2.jpg"
-      },
-      {
-        "art_id": 75,
-        "author": "Eone",
-        "imgsrc": "/public/upload_img_art/1624292354338.jpg",
-        "title": null,
-        "text": "我想在你身上钻木取火，点燃此生",
-        "user_img": "/public/change_user_img/2.jpg"
-      },
-      {
-        "art_id": 74,
-        "author": "Wu",
-        "imgsrc": null,
-        "title": "苦中作乐那是圣人作乐，我在乐中也不知乐，",
-        "text": "",
-        "user_img": "/public/change_user_img/9f96fe8db60b65c763d0c1a00.jpg"
-      },
-      {
-        "art_id": 71,
-        "author": "Test",
-        "imgsrc": "/public/upload_img_art/1624292206970.jpg",
-        "title": null,
-        "text": "阿橘",
-        "user_img": "/public/change_user_img/3.jpg"
-      },
-      {
-        "art_id": 69,
-        "author": "Test",
-        "imgsrc": null,
-        "title": "秋风起",
-        "text": "秋风清，落叶起。  流浪的人儿你在何地。  风吹起，你的发鬓。  拂过你耳畔卿卿。  带着咿咿哩哩，  是熟悉的声音。  会不会想起，  谁的眼睛，  清澈见底。    天边云，门前溪。  歌唱的女孩儿在那里。  随风起，戴着爱意。  平了山河难平意。  迎着春风十里，  不如你的细语。  会不会想起，  谁的光阴，  有没有你。",
-        "user_img": "/public/change_user_img/3.jpg"
-      },
-      {
-        "art_id": 68,
-        "author": "Test",
-        "imgsrc": null,
-        "title": "当你快挺不住的时候,磨难也挺不住了。",
-        "text": "",
-        "user_img": "/public/change_user_img/3.jpg"
-      },
-      {
-        "art_id": 56,
-        "author": "Test",
-        "imgsrc": "",
-        "title": "LOFTER——专注兴趣，分享创作",
-        "text": "精致体验：LOFTER追求精致入微的视觉和交互体验，为每一片内容精心度量，让你的视角所触及的每一个像素，都蕴含独具匠心的精致设计。\r\n极简易用：LOFTER在功能方面努力做到简单易用，希望让用户的每一次操作都能简单快捷、随性而为，从而满足目标用户碎片化、高效率的记录需求。\r\n内容品质：LOFTER推崇纯粹的内容主义，摒弃一切与内容无关的琐碎和繁杂，并希望通过挖掘和推荐，打造一系列优秀的LOFTERS，激活目标用户的阅读兴趣。\r\n\r\n",
-        "user_img": "/public/change_user_img/3.jpg"
-      },
-      {
-        "art_id": 30,
-        "author": "Test",
-        "imgsrc": "/public/upload_img_art/12.jpg",
-        "title": "",
-        "text": "盒子里的猫娘? 喜欢吗 ^_^",
-        "user_img": "/public/change_user_img/3.jpg"
-      },
-      {
-        "art_id": 28,
-        "author": "Test",
-        "imgsrc": "/public/upload_img_art/11.jpg",
-        "title": "",
-        "text": "今天光线不错",
-        "user_img": "/public/change_user_img/3.jpg"
-      },
-      {
-        "art_id": 26,
-        "author": "Wu",
-        "imgsrc": "/public/upload_img_art/10.jpg",
-        "title": "",
-        "text": "爱笑的你最可爱!!",
-        "user_img": "/public/change_user_img/9f96fe8db60b65c763d0c1a00.jpg"
-      },
-      {
-        "art_id": 24,
-        "author": "Wu",
-        "imgsrc": "/public/upload_img_art/9.jpg",
-        "title": "",
-        "text": "",
-        "user_img": "/public/change_user_img/9f96fe8db60b65c763d0c1a00.jpg"
-      },
-      {
-        "art_id": 22,
-        "author": "Wu",
-        "imgsrc": "/public/upload_img_art/8.jpg",
-        "title": "",
-        "text": "",
-        "user_img": "/public/change_user_img/9f96fe8db60b65c763d0c1a00.jpg"
-      },
-      {
-        "art_id": 20,
-        "author": "Wu",
-        "imgsrc": "/public/upload_img_art/7.jpg",
-        "title": "",
-        "text": "今晚的烟花..能陪我一起去看吗?",
-        "user_img": "/public/change_user_img/9f96fe8db60b65c763d0c1a00.jpg"
-      },
-      {
-        "art_id": 16,
-        "author": "Wu",
-        "imgsrc": "/public/upload_img_art/5.jpg",
-        "title": "",
-        "text": "这风车真白",
-        "user_img": "/public/change_user_img/9f96fe8db60b65c763d0c1a00.jpg"
-      },
-      {
-        "art_id": 14,
-        "author": "Wu",
-        "imgsrc": "/public/upload_img_art/4.jpg",
-        "title": "",
-        "text": "神秘",
-        "user_img": "/public/change_user_img/9f96fe8db60b65c763d0c1a00.jpg"
-      },
-      {
-        "art_id": 12,
-        "author": "Eone",
-        "imgsrc": "/public/upload_img_art/3.jpg",
-        "title": "",
-        "text": "",
-        "user_img": "/public/change_user_img/2.jpg"
-      },
-      {
-        "art_id": 10,
-        "author": "Eone",
-        "imgsrc": "/public/upload_img_art/2.jpg",
-        "title": "",
-        "text": "",
-        "user_img": "/public/change_user_img/2.jpg"
-      },
-      {
-        "art_id": 8,
-        "author": "Eone",
-        "imgsrc": "/public/upload_img_art/1.jpg",
-        "title": "",
-        "text": "",
-        "user_img": "/public/change_user_img/2.jpg"
-      },
-      {
-        "art_id": 2,
-        "author": "Eone",
-        "imgsrc": "",
-        "title": "LOFTER，从简约中领悟品质的真谛",
-        "text": "有没有那么一件单品、一张照片、一副美景或一杯暖饮，让你流连忘返、回味无穷？LOFTER的视觉设计，希望悄悄的留住你的视线，带给你唯一却熟悉的感觉…\r\n\r\n",
-        "user_img": "/public/change_user_img/2.jpg"
-      },
-      {
-        "art_id": 1,
-        "author": "Eone",
-        "imgsrc": "/public/upload_img_art/show.jpg",
-        "title": "",
-        "text": "她真可爱!!",
-        "user_img": "/public/change_user_img/2.jpg"
-      }
-    ]
-  }
+  "data": [
+    {
+      "username": "测试用户1",
+      "userImg": "/public/change_user_img/1.jpg",
+      "works": [
+        {
+          "worksId": 1,
+          "username": "测试用户1",
+          "imgSrc": "/public/upload_img_art/10.jpg",
+          "title": "测试文章标题1",
+          "content": "测试文章内容1"
+        },
+        {
+          "worksId": 2,
+          "username": "测试用户1",
+          "imgSrc": "",
+          "title": "测试文章标题2",
+          "content": "测试文章内容2"
+        },
+        {
+          "worksId": 3,
+          "username": "测试用户1",
+          "imgSrc": "",
+          "title": "测试文章标题3",
+          "content": "测试文章内容3"
+        }
+      ]
+    },
+    {
+      "username": "测试用户2",
+      "userImg": "/public/change_user_img/2.jpg",
+      "works": [
+        {
+          "worksId": 1,
+          "username": "测试用户2",
+          "imgSrc": "",
+          "title": "测试文章标题1",
+          "content": "测试文章内容1"
+        },
+        {
+          "worksId": 2,
+          "username": "测试用户2",
+          "imgSrc": "/public/upload_img_art/11.jpg",
+          "title": "测试文章标题2",
+          "content": "测试文章内容2"
+        },
+        {
+          "worksId": 3,
+          "username": "测试用户2",
+          "imgSrc": "",
+          "title": "测试文章标题3",
+          "content": "测试文章内容3"
+        }
+      ]
+    },
+    {
+      "username": "测试用户3",
+      "userImg": "/public/change_user_img/3.jpg",
+      "works": [
+        {
+          "worksId": 1,
+          "username": "测试用户3",
+          "imgSrc": "",
+          "title": "测试文章标题1",
+          "content": "测试文章内容1"
+        },
+        {
+          "worksId": 2,
+          "username": "测试用户3",
+          "imgSrc": "",
+          "title": "测试文章标题2",
+          "content": "测试文章内容2"
+        },
+        {
+          "worksId": 3,
+          "username": "测试用户3",
+          "imgSrc": "/public/upload_img_art/12.jpg",
+          "title": "测试文章标题3",
+          "content": "测试文章内容3"
+        }
+      ]
+    }
+  ]
 }

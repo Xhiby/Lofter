@@ -3,6 +3,11 @@
     <div
       @click="show('change_user_img')"
       class="user_img">
+      <div v-if="userImg">
+        <img
+          :src="userImg"
+          class="new-img" />
+      </div>
     </div>
     <div
       @click="show('upload_txt')"
@@ -22,13 +27,25 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+  import { useUserStore } from '@/stores/user'
+  import { ref, onMounted } from 'vue'
+
+  const UserStore = useUserStore()
+
+  const userImg = ref()
+
+  onMounted(() => {
+    userImg.value = UserStore.getUserImg
+  })
+</script>
 
 <style lang="scss" scoped>
   .panel {
     background: url('../../../assets/img/PostBar.png') no-repeat;
     cursor: pointer;
     display: flex;
+    margin-right: 25px;
     div {
       width: 110px;
       height: 110px;
@@ -37,6 +54,17 @@
 
   .user_img:hover {
     background: url('../../../assets/img/PostBar.png') no-repeat 0 -132px;
+  }
+
+  .user_img {
+    &:hover .new-img {
+      display: none;
+    }
+
+    .new-img {
+      width: 110px;
+      height: 110px;
+    }
   }
 
   .send_text:hover {

@@ -4,9 +4,10 @@ body {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 .page {
-  width: 60vw;
+  width: 870px;
   margin: 0 auto;
 }

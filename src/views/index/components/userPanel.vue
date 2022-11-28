@@ -2,8 +2,8 @@
   <div class="user">
     <router-link
       class="username"
-      to="/user">
-      <p>{{ username }}</p></router-link
+      to="/index">
+      <p>{{ userName }}</p></router-link
     >
     <div class="usermenu">
       <a href="#"></a>
@@ -22,18 +22,22 @@
 </template>
 
 <script setup>
-  const props = defineProps({
-    username: {
-      type: String,
-      default: 'UserName'
-    }
+  import { useUserStore } from '@/stores/user'
+  import { ref, onMounted } from 'vue'
+
+  const UserStore = useUserStore()
+
+  const userName = ref()
+
+  onMounted(() => {
+    userName.value = UserStore.getUserName
   })
 </script>
 
 <style lang="scss" scoped>
   .user {
     width: 185px;
-    height: 100%;
+    height: 100px;
     background-color: #f3f3f3;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
     margin-bottom: 25px;
@@ -48,9 +52,11 @@
         background-color: white;
       }
       p {
+        line-height: 45px;
+        margin: 0;
         text-align: center;
-        line-height: 55px;
         font-weight: bold;
+        color: #414141;
       }
     }
     .usermenu {

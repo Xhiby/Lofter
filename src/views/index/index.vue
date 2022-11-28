@@ -2,30 +2,45 @@
   <div class="index">
     <top-nav></top-nav>
     <div class="page">
-      <div><send-panel></send-panel></div>
-      <div><user-panel></user-panel></div>
+      <div>
+        <send-panel></send-panel>
+        <all-works
+          v-for="item in allWorksData"
+          :allWorksData="item"></all-works>
+      </div>
+      <div>
+        <user-panel></user-panel>
+        <works-manage></works-manage>
+        <wx-visit></wx-visit>
+      </div>
     </div>
   </div>
 </template>
 
 <script setup>
-  import { onMounted } from 'vue'
+  import { onMounted, ref } from 'vue'
   import * as apis from '@/apis/index'
 
   import topNav from '../../components/topNav.vue'
   import sendPanel from './components/sendPanel.vue'
   import userPanel from './components/userPanel.vue'
+  import allWorks from './components/allWorks.vue'
+  import worksManage from './components/worksManage.vue'
+  import wxVisit from './components/wxVisit.vue'
+
+  // 传给allWorks组件的数据
+  const allWorksData = ref(null)
 
   onMounted(() => {
-    getUserInfo()
+    getArtList()
   })
 
-  const getUserInfo = () => {
+  const getArtList = () => {
     apis
-      .getUserInfo()
+      .getArtList()
       .then((res) => {
         if (res.data.status === 'OK') {
-          console.log(res.data.data.userData)
+          allWorksData.value = res.data.data
         }
       })
       .catch((err) => {
@@ -33,6 +48,8 @@
       })
       .finally(() => {})
   }
+
+  const userLogin = () => {}
 </script>
 
 <style lang="scss" scoped>

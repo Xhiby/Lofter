@@ -2,13 +2,11 @@
   "status": "OK",
   "message": "返回用户信息",
   "data": {
-    "userData": [
-      {
-        "user_id": 1,
-        "user_name": "Wu",
-        "user_pwd": "",
-        "user_img": "/public/change_user_img/9f96fe8db60b65c763d0c1a00.jpg"
-      }
-    ]
+    "userData": {
+      "userId": 1,
+      "userName": "Wu",
+      "userPassword": "",
+      "userImg": "/public/change_user_img/9f96fe8db60b65c763d0c1a00.jpg"
+    }
   }
 }
