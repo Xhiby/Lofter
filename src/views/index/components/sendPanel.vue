@@ -46,6 +46,7 @@
     cursor: pointer;
     display: flex;
     margin-right: 25px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 30%);
     div {
       width: 110px;
       height: 110px;

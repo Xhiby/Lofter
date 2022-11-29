@@ -5,7 +5,8 @@
       <div>
         <send-panel></send-panel>
         <all-works
-          v-for="item in allWorksData"
+          v-for="(item, index) in allWorksData"
+          :key="index"
           :allWorksData="item"></all-works>
       </div>
       <div>

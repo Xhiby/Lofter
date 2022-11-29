@@ -16,21 +16,6 @@
           <span>使用微信扫码打开LOFTER微信小程序</span>
         </div>
       </div>
-      <div class="dlcont">
-        <img src="../../../assets/img/download/mp_qq.jpg" />
-        <div>
-          <p>QQ小程序</p>
-          <span>使用QQ扫码打开LOFTER QQ小程序</span>
-        </div>
-      </div>
-      <div class="dlcont">
-        <img src="../../../assets/img/download/app_ios.jpg" />
-        <div>
-          <p>苹果APP下载</p>
-          <span>扫码下载iOS</span><br />
-          <span>LOFTER APP</span>
-        </div>
-      </div>
     </div>
   </div>
 </template>

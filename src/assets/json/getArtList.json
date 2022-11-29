@@ -11,21 +11,24 @@
           "username": "测试用户1",
           "imgSrc": "/public/upload_img_art/10.jpg",
           "title": "测试文章标题1",
-          "content": "测试文章内容1"
+          "content": "测试文章内容1",
+          "tags": ""
         },
         {
           "worksId": 2,
           "username": "测试用户1",
           "imgSrc": "",
           "title": "测试文章标题2",
-          "content": "测试文章内容2"
+          "content": "测试文章内容2",
+          "tags": "标签一&标签二"
         },
         {
           "worksId": 3,
           "username": "测试用户1",
           "imgSrc": "",
           "title": "测试文章标题3",
-          "content": "测试文章内容3"
+          "content": "测试文章内容3",
+          "tags": "标签一&标签二"
         }
       ]
     },
@@ -38,21 +41,24 @@
           "username": "测试用户2",
           "imgSrc": "",
           "title": "测试文章标题1",
-          "content": "测试文章内容1"
+          "content": "测试文章内容1",
+          "tags": "标签一&标签二"
         },
         {
           "worksId": 2,
           "username": "测试用户2",
           "imgSrc": "/public/upload_img_art/11.jpg",
           "title": "测试文章标题2",
-          "content": "测试文章内容2"
+          "content": "测试文章内容2",
+          "tags": ""
         },
         {
           "worksId": 3,
           "username": "测试用户2",
           "imgSrc": "",
           "title": "测试文章标题3",
-          "content": "测试文章内容3"
+          "content": "测试文章内容3",
+          "tags": "标签一&标签二"
         }
       ]
     },
@@ -65,21 +71,24 @@
           "username": "测试用户3",
           "imgSrc": "",
           "title": "测试文章标题1",
-          "content": "测试文章内容1"
+          "content": "测试文章内容1",
+          "tags": "标签一&标签二"
         },
         {
           "worksId": 2,
           "username": "测试用户3",
           "imgSrc": "",
           "title": "测试文章标题2",
-          "content": "测试文章内容2"
+          "content": "测试文章内容2",
+          "tags": "标签一&标签二"
         },
         {
           "worksId": 3,
           "username": "测试用户3",
           "imgSrc": "/public/upload_img_art/12.jpg",
           "title": "测试文章标题3",
-          "content": "测试文章内容3"
+          "content": "测试文章内容3",
+          "tags": ""
         }
       ]
     }

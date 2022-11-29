@@ -3,8 +3,8 @@ import * as apis from '@/apis/index'
 
 export const useUserStore = defineStore('user', {
   state: () => ({
-    userName: '',
-    userImg: ''
+    userName: 'Wu',
+    userImg: '/public/change_user_img/9f96fe8db60b65c763d0c1a00.jpg'
   }),
   getters: {
     getUserName: (state) => {

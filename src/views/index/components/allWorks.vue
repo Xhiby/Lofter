@@ -5,8 +5,10 @@
       :src="allWorksData.userImg" />
     <div>
       <works-item
-        v-for="item in allWorksData.works"
-        :works="item"></works-item>
+        v-for="(item, index) in allWorksData.works"
+        :key="index"
+        :works="item"
+        :isOne="index === 0"></works-item>
     </div>
   </div>
 </template>
@@ -35,10 +37,10 @@
   .all-works {
     display: flex;
     .user-img {
-      width: 50px;
-      height: 50px;
+      width: 65px;
+      height: 65px;
       margin-top: 25px;
-      margin-right: 25px;
+      margin-right: 45px;
     }
   }
 </style>
